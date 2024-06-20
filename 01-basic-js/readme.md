@@ -25,4 +25,55 @@
     2.difference between var & const.
     3.what do you mean by haisting.(when we don't declare value of variable but it execute the code)
 
+    ##Rules of Variable :-
+    -Variable name are case sensative "a" & "A" is different.
+    -Only letter,digit,underscore & $ is allowed.(not even space).
+    -reserver words cannot be variable names.
+
+    ##Data types in javascript :-
+
+    -data type is an attribute associated with a piece of data that tells a computer system how to interpret it's value.
+    -in data types we used "typeof" operator to know the what type of data it is.
+    -mainly in javascript thire are 2 types of data type.
+
+    1.primitive :-
+      -in javascript there are 7 type primitive data types.
+      1.Number :-number are the type of data type those it contain some numerical value.
+      2.string :-string is a type of data type that can hold some character like names...
+      3.boolean :-in boolean data type get Boolean value like true or false.
+      4.undefined :-in undefined data type the data is not define so that  it wioll show undefined.
+      5.null :-in this data type we get null for the value means nothing.
+      6.bigint :- in bigint we will get big integer.
+      7.symbol :- in symbol we will get whole symbol as well as the value we gwt for the data type.
+
+    2.non-primitive or reference :-
+      -non primitive data types are the type of data type that can hold multiple items in a single time
+      -non-primitive data types are - object , arry , function
+
+      object :-
+         -object is a non-primitive data types which can hold multiple of item in one single entity.
+         -mainly objects are working on (key:value)pair.
+         -the left hand side is our keys and right hand side are the values of the following object.
+
+         ex-
+            soumya={
+               college: "GIET",
+               address: "BBSR",
+               age: 22,
+               salary: 4500,
+               carrier: "Good"
+            }
+
+##operator in js :-
+
+-operator are the key features to do some task or operate some task.
+-ex. A + B
+-in the above example A & B are operands , '+' is the operators to addition.
+1. Arithmetic Operators:-
+(+,-,*,/)
+modulus -> %
+Exponetiation -> **
+increment -> ++
+decrement -> --
+
  
