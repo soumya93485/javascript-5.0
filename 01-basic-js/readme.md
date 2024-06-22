@@ -73,7 +73,52 @@
 (+,-,*,/)
 modulus -> %
 Exponetiation -> **
+
+2.unary operators:-
 increment -> ++
 decrement -> --
+
+3.assignment operator:-
+(=, +=, -=, *=, %=, **=)
+
+4.Comparison operator :- (compair thge values)
+* its give the result true or false.
+equal to -> ==
+not equal to -> !=
+equal to & type -> ===
+not equal to & type -> !==
+(>, >=, <, <=)
+
+5. Logical operator :- checks the logic of the operator(true/false)
+Logical AND &&
+table of AND operator is :-
+cond 1 , cond 2, res (&&)
+T + T = T
+T + F = F
+F + T = F
+F + F = F
+
+Logical OR ||
+table of OR operator is :-
+cond 1 , cond 2, res (||)
+T + T = T
+T + F = T
+F + T = T
+F + F = F
+
+Logical NOT !
+
+conditional statement :-
+
+-to implement some condition in the code
+-there are 3 types of conditional statements are there
+1.if condition -
+-if condition is true then statement is true otherwise false. syntax :- if(condition){ statement }
+2.if-else condition
+-if condition is true then block executed otherwise its terminate to else condition. syntax :- if(condition){ statement } else{ statement }
+3.else-if condition
+-its check the condition multiple times where condition is true. syntax :- if(condition){ statement } else if(condition) { statement } else if(condition) { statement } else { statement }
+
+
 
  
